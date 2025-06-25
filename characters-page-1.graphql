@@ -1,0 +1,15 @@
+query GetCharacterByPage1{
+  characters(page: 1){
+    info{
+      count
+      prev
+      next
+    }
+    results{
+    id
+    name
+    status
+    image
+    }
+  }
+}
